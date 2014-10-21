@@ -4,3 +4,5 @@ create table entries(
   title text not null,
   'text' text not null
 );
+
+
