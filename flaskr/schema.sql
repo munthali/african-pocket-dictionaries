@@ -1,6 +1,6 @@
-drop table if exists dictionary;
-create table dictionary (
+drop table if exists entries;
+create table entries(
   id integer primary key autoincrement,
-  word text not null,
-  meaning text not null
+  title text not null,
+  'text' text not null
 );
