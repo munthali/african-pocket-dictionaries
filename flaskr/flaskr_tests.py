@@ -49,5 +49,7 @@ class FlaskrTestCase(unittest.TestCase):
         assert '&lt;Hello&gt;' in rv.data
         assert '<strong>HTML</strong> allowed here' in rv.data
 
+
+
 if __name__ == '__main__':
     unittest.main()
